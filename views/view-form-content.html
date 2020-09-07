@@ -1,0 +1,25 @@
+<div class="container" id="container-wrap">
+    <h1 class="mt-4" id="h1">Add Content</h1>
+    <hr>
+    <div class="wrapper-form-content mt-3" id="wrapper-form-content">
+        <p class="px-3 py-2 bg-light mb-2">Content Form Elements</p>
+        <form class="px-3" onsubmit="return validateAddContent()">
+            <div class="form-group mb-3">
+                <label for="title" class="mb-1">Title</label>
+                <input type="text" size="50" id="title" class="form-control form-control-sm" placeholder="Enter the title" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="brief" class="mb-1">Brief</label>
+                <textarea id="brief" cols="30" rows="3" class="form-control form-control-sm" required></textarea>
+            </div>
+            <div class="form-group mb-3">
+                <label for="content" class="mb-1">Content</label>
+                <textarea id="content" cols="30" rows="5" class="form-control form-control-sm" required></textarea>
+            </div>
+            <div class="btn-group mb-3">
+                <button class="btn btn-light btn-sm border mr-2" type="submit">Submit Button</button>
+                <button class="btn btn-light btn-sm border">Reset Button</button>
+            </div>
+        </form>
+    </div>
+</div>

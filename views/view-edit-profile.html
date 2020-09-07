@@ -1,0 +1,33 @@
+<div class="container" id="container-wrap">
+    <h1 class="mt-4" id="h1">Edit Profile</h1>
+    <hr>
+    <div class="wrapper-edit-profile mt-3">
+        <p class="px-3 py-2 bg-light mb-2">Profile Form Elements</p>
+        <form class="px-3" onsubmit="return validateEditProfile()">
+            <div class="form-group mb-3">
+                <label for="firstname" class="mb-1">First Name</label>
+                <input type="text" size="50" id="firstname" class="form-control form-control-sm" placeholder="Enter the first name" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="lastname" class="mb-1">Last Name</label>
+                <input type="text" size="50" id="lastname" class="form-control form-control-sm" placeholder="Enter the last name" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="email" class="mb-1">Email</label>
+                <input type="email" size="50" id="email" class="form-control form-control-sm border-0" value="your_email@example.com">
+            </div>
+            <div class="form-group mb-3">
+                <label for="phone" class="mb-1">Phone</label>
+                <input type="text" id="phone" class="form-control form-control-sm" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="description" class="mb-1">Description</label>
+                <textarea id="description" cols="30" rows="3" class="form-control form-control-sm"></textarea>
+            </div>
+            <div class="btn-group mb-3">
+                <button class="btn btn-light btn-sm border mr-2" type="submit">Submit Button</button>
+                <button class="btn btn-light btn-sm border">Reset Button</button>
+            </div>
+        </form>
+    </div>
+</div>
